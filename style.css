@@ -120,7 +120,7 @@ section#inicio a:hover{
 }
 
 section#novidades{
-    height: 80vh;
+    height: 100vh;
     background-color: #09264E;
     padding: 20px;
     display: flex;
