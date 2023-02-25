@@ -40,7 +40,7 @@ div.menu-itens a{
     padding: 10px;
 }
 
-div#mobile-menu{
+#mobile-menu{
     display: none;
     text-align: right;
 }
