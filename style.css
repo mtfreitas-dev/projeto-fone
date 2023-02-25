@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
+    color: white;
 
 }
 
@@ -12,7 +13,6 @@ body{}
 
 header{
     background-image: linear-gradient(to right, #01BDC6, #09264E);
-    color: white;
     height: 15vh;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,6 @@ div.logo h1{
 }
 
 #burguer{
-    color: white;
     padding: 20px;
     font-size: 3em;
 }
@@ -54,7 +53,6 @@ picture{
 section#inicio h1{
     text-align: center;
     padding: 20px;
-    color: white;
     font-size: 3em;
     font-weight: 100;
 }
@@ -62,7 +60,6 @@ section#inicio h1{
 section#inicio a{
     text-align: center;
     padding: 20px;
-    color: white;
     font-weight: bolder;
     text-decoration: none;
     border-radius: 30px;
@@ -76,7 +73,6 @@ section#inicio a:hover{
 section#novidades{
     height: 80vh;
     background-color: #09264E;
-    color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -95,7 +91,6 @@ section#novidades p{
 
 section#produtos{
     background-image: linear-gradient(to right, #01BDC6, #09264E);
-    color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -123,7 +118,6 @@ label a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
-    color: white;
 }
 
 label#headphone-bluetoot p:hover{
@@ -134,5 +128,52 @@ label#headephone-gamer p:hover{
     color: #013436;
 }
 
+label#microfone p:hover{
+    color: #013436;
+}
 
-footer{}
+section#contatos{
+    height: 120vh;
+    background-image: linear-gradient(to right, #01BDC6, #09264E);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contatos h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+section#contatos h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+section#contatos p , a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section#contatos a:hover{
+    color: #09264E;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: #09264E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
