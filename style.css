@@ -73,5 +73,27 @@ section#inicio a:hover{
     background-color: #013436;
 }
 
+section#novidades{
+    height: 80vh;
+    background-color: #09264E;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#novidades h1{
+    padding: 20px;
+    font-size: 3em; 
+}
+
+section#novidades p{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+
+
 
 footer{}
