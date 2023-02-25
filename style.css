@@ -12,20 +12,34 @@
 body{}
 
 header{
-    background-image: linear-gradient(to right, #01BDC6, #09264E);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 15vh ;
+    width: 100%;
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.219);
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    background-image: linear-gradient(to right, #01BDC6, #09264E);
+    box-shadow: 0px 0px 2px #09264e69;
 }
 
 div.logo{
-    padding: 20px;
+    margin: 30px;
+    font-size: 1.5em;
 }
-
 
 #burguer{
     font-size: 3em;
-    margin: 20px;
+    margin: 30px;
 }
 
 #burguer:hover{
@@ -75,7 +89,8 @@ div.logo{
 main{}
 
 section#inicio{
-    height: 100vh;
+    display: block;
+    height: 130vh;
     background-image: linear-gradient(to right, #01BDC6, #09264E);
     text-align: center;
 }
