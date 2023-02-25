@@ -72,12 +72,6 @@ div.logo{
 }
 
 
-
-    
-
-
-
-
 main{}
 
 section#inicio{
@@ -131,6 +125,7 @@ section#novidades p{
 }
 
 section#produtos{
+    height: 200vh;
     background-image: linear-gradient(to right, #01BDC6, #09264E);
     padding: 20px;
     display: flex;
@@ -208,6 +203,13 @@ section#contatos p a{
 
 section#contatos a:hover{
     color: #09264E;
+}
+
+div#rede a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+
 }
 
 
