@@ -94,7 +94,6 @@ section#novidades p{
 }
 
 section#produtos{
-    height: 80vh;
     background-image: linear-gradient(to right, #01BDC6, #09264E);
     color: white;
     padding: 20px;
@@ -115,7 +114,12 @@ div#headphone-bluetoot{
     padding: 5px;
 }
 
-label#headphone-bluetoot a{
+label{
+    margin: 10px;
+    padding: 10px;
+}
+
+label a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
@@ -123,6 +127,10 @@ label#headphone-bluetoot a{
 }
 
 label#headphone-bluetoot p:hover{
+    color: #013436;
+}
+
+label#headephone-gamer p:hover{
     color: #013436;
 }
 
