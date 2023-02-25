@@ -11,12 +11,28 @@
 </head>
 <body>
     <header>
+        <menu id="itens">
         <div class="logo">
             <h1>MAT TECH</h1>
         </div>
-        <div class="menu">
-            <i><i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-            <menu id="itens"></i>
+        <div class="menu-itens">    
+            <a href="index.html">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Suporte</a>
+            <a href="#">Fale Conosco</a>
+            </ul>
+        </div>
+        <div class="menu-icon">
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        </div>
+    </menu>
+        <div id="mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
         </div>
     </header>
     <main>
@@ -79,5 +95,13 @@
     <footer>
             <p>Criado por Matheus Freitas &copy;</p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == none){
+                itens.style.display = block
+            }
+        }
+    </script>
 </body>
 </html>
