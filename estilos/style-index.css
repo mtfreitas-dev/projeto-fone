@@ -64,7 +64,8 @@ section#produtos{
 
 section#produtos h1{
     padding: 20px;
-    font-size: 2.5em; 
+    font-size: 2.5em;
+    text-align: center; 
 }
 
 div#headphone-bluetoot{
@@ -98,12 +99,12 @@ label#microfone p:hover{
 }
 
 section#contatos{
-    height: 100vh;
     background-image: linear-gradient(to right, #01BDC6, #09264E);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 section#contatos h1{
@@ -147,4 +148,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em;
+    padding: 10px;
 }
