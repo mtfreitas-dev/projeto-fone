@@ -54,7 +54,6 @@ section#novidades p{
 }
 
 section#produtos{
-    height: 250vh;
     background-image: linear-gradient(to right, #01BDC6, #09264E);
     padding: 20px;
     display: flex;
